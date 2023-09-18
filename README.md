@@ -1,3 +1,15 @@
+# SEO-checker
+This is the assignment given to me where the following apis: 
+1. https://docs.dataforseo.com/v3/auth
+2. https://docs.dataforseo.com/v3/on_page/overview
+   
+are called and the SEO data is being displayed.
+
+### Some rectifications:
+- This is not a completely build website.
+- There is a lot more data that could be processed and displayed.
+- The work is currently going on!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
