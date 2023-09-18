@@ -1,0 +1,82 @@
+/* CardStyles.css */
+
+.heading-display{
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  color: azure;
+  font-size: 35px;
+
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 16px;
+    margin: 16px;
+    width: 250px;
+    background-color: #e4dada;
+    font-family: 'Times New Roman', Times, serif;
+    transition: transform 0.2s ease; /* Add smooth transition */
+    flex: 0 0 calc(33.33% - 20px); /* Three cards in each row (adjust as needed) */
+    box-sizing: border-box;
+   
+  }
+  .card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  .card h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+  
+  .card p {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    color:red;
+  }
+  
+  .seo-info-cards{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Distribute space between cards */
+  gap: 20px;
+
+  }
+
+/* CardStyles.css */
+
+/* Your existing styles here */
+
+@media screen and (max-width: 768px) {
+  /* Adjust styles for screens with a maximum width of 768px */
+  .seo-info-cards {
+    flex-direction: column; /* Stack cards vertically */
+  }
+
+  .card {
+    width: 100%; /* Make cards take up the full width of the container */
+    margin: 16px 0; /* Add vertical spacing between cards */
+  }
+}
+
+@media screen and (min-width: 769px) {
+  /* Adjust styles for screens with a minimum width of 769px (larger screens) */
+  .seo-info-cards {
+    justify-content: space-evenly; /* Distribute cards evenly */
+  }
+
+  .card {
+    width: calc(40% - 32px); /* Set card width to 50% minus spacing */
+    margin: 16px; /* Add spacing between cards */
+  }
+}
+.h-cards{
+  display: flex;
+  border: 1px solid wheat;
+}
