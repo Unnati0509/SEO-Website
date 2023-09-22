@@ -1,3 +1,4 @@
+LIVE LINK: https://seo-website.pages.dev/
 # SEO-checker
 This is the assignment given to me where the following apis: 
 1. https://docs.dataforseo.com/v3/auth
